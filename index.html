@@ -13,6 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" type="image/svg" href="./img/navbar_img/logo.svg"/>
     <title>Final</title>
 </head>
 <body>
@@ -20,13 +21,13 @@
         <div class="navbar__container">
             <nav class="navbar">
                 <div class="navbar__logo">
-                    <img src="./img/navbar_img/logo.svg" alt="" class="src">
+                    <a href="#"><img src="./img/navbar_img/logo.svg" alt="" class="src"></a>
                 </div>
                 <ul class="navbar__list">
                     <li class="navbar__list--item"><a href="#">Home</a></li>
                     <li class="navbar__list--item"><a href="#play">Play</a></li>
                     <li class="navbar__list--item"><a href="#team">Our Team</a></li>
-                    <li class="navbar__list--item"><a href="#contact">Contact Now</a></li>
+                    <li class="navbar__list--item"><a href="#contact">Contact</a></li>
                     <div class="navbar__mode">
                         <input type="checkbox" id="mode" class="switch-input" />
                         <label for="mode" class="switch">
@@ -48,10 +49,8 @@
                     <img src="./img/banner_img/banner-img.png" alt="">
                 </div>
                 <div class="banner__heading">
-                    <h1>A SOFT MURMUR </h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-                        consequatur provident, culpa quaerat fugit dolorem illum
-                        repellendus quas quasi obcaecati quia aliquid odit! Vitae, non?</p>
+                    <h1>HELLO BUDDY! </h1>
+                    <p>This is our of first web project. I hope you have some ideas and contributions. Thank you and enjoy this time. Take care!!!</p>
                     <div class="banner__heading--item">
                         <img src="./img/banner_img/baloon-logo.png" alt="">
                         <a href="#play"><button class="banner__btn">Start</button></a>
@@ -61,11 +60,10 @@
         </section>
         
         <!--================play================  -->
-
         <section id="play">
             <div class="play__container">
                 <div class="play__heading">
-                    <h2>harmony sound</h2>
+                    <h2>HARMONY SOUND</h2>
                     <p>Ambient sounds to wash away distraction.</p>
                 </div>
                 
@@ -114,7 +112,7 @@
                     </div>
                     <div class="play__item"  id="9">
                         <img data-playing="false" class="play__img" src="./img/play_img/9.svg" alt="">
-                        <audio class="sound" src="https://e8b8e3q2.ssl.hwcdn.net/sounds/defonicprem/jungle160.mp3"></audio>
+                        <audio class="sound" src="https://e8b8e3q2.ssl.hwcdn.net/sounds/hipster/aspen-tree160.mp3"></audio>
                         <input type="range" class="vol__bar" value="50" min="0" max="100">
                     </div>
                     <div class="play__item" id="10">
@@ -169,8 +167,8 @@
                         <img src="./img/team_img/team_1.jpg" alt="">
                     </div>
                     <div class="team__member--info">
-                        <h4>name</h4>
-                        <p>Lorem ipsum dolor sit amet</p>
+                        <h4>Dũng</h4>
+                        <p>See Ya!</p>
                     </div>
                     <div class="team__member--social">
                         <a href="#"><i class="fab fa-facebook social-share-icon"></i></a>
@@ -183,8 +181,8 @@
                         <img src="./img/team_img/IMG_0318.jpg" alt="">
                     </div>
                     <div class="team__member--info">
-                        <h4>name</h4>
-                        <p>Lorem ipsum dolor sit amet</p>
+                        <h4>Hoàng</h4>
+                        <p>See Ya!</p>
                     </div>
                     <div class="team__member--social">
                         <a href="#"><i class="fab fa-facebook social-share-icon"></i></a>
@@ -204,7 +202,7 @@
                     <img src="./img/contact_img/contact.svg" alt="">
                 </div>
                 <h2>Contact Us</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum fugiat cumque velit nobis error ipsa.</p>
+                <p> If you need any further information, please do not hesitate to contact me.</p>
                 <ul class="contact__detail">
                     <li>
                         <i class="fa fa-phone"></i> 
@@ -212,7 +210,7 @@
                     </li>
                     <li>
                         <i class="fa fa-envelope"></i> 
-                        <h5>abc@gmail.com</h5>
+                        <h5>abc_t64@hus.edu.vn</h5>
                     </li>
                     <li>
                         <i class="fa fa-compass"></i> 
@@ -239,7 +237,6 @@
                     <label for="email">Email Address</label>
                     <input autocomplete="off" type="text" name="Email Address:" placeholder="Enter your email address" />
                 </div>
-
                 <div class="message">
                     <label for="message">Message</label>
                     <textarea name="Message" rows="5" placeholder="" required ></textarea>
@@ -249,18 +246,14 @@
         </div>
         
     </section>
-
-
-
-
-
     <!--======================footer============================  -->
     <footer>
         <section id="footer">
             <div class="footer__container">
                 <div class="footer__1">
                     <a href="#" class="footer__logo" > <h4>Hi.</h4> </a>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum fugiat cumque velit nobis error ipsa.</p>
+                    <p>Relax, Focus, Work Hard, Make Effors, Constant and Successful.</p>
+                    <p>Good Luck!!</p>
                 </div>
                 <div class="footer__2">
                     <ul class="links">
@@ -274,7 +267,7 @@
                     <h4>Contact</h4>
                     <div>
                         <p>+01 234 567 8910</p>
-                        <p>abc@gmail.com</p>
+                        <p>abc_t64@hus.edu.vn</p>
                     </div>
                     <ul class="footer__socical">
                         <li><a href="#"><i class="fab fa-facebook social-share-icon"></i></a></li>
@@ -286,6 +279,7 @@
         </section>
     </footer>
     
-    <script src="./js/main.js"></script>
+    <script src="./js/main.js">
+    </script>
 </body>
 </html>
